@@ -1,0 +1,174 @@
+<section id="plans" class="main-plans-container">
+            <div class="plans--title">
+                <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+                <p>Cualquier plan te da acceso completo  a nuestra plataforma.</p>
+            </div>
+            <section class="plans-container-slider">
+                <article class="plans-container-card">
+                    <p class="recomended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago anual</h3>
+                        <p class="plan-card--price"><span>$</span>99</p>
+                        <p class="plan-card--saving">*Ahorras $129.00 comparado al plan mensual.</p>
+                        <button class="plan-card--ca">Escoger este<span></span> </button>
+                    </div>
+                </article>
+                <article class="plans-container-card">
+                    <p class="basic">Basico</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago mensual</h3>
+                        <p class="plan-card--price"><span>$</span>20</p>
+                        <p class="plan-card--saving">*Quedate con todas las ventajas durante tu mes de pago.</p>
+                        <button class="plan-card--ca--basic">Escoger este<span></span> </button>
+                    </div>
+                </article>
+                <article class="plans-container-card">
+                    <p class="vip">VIP</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago mensual</h3>
+                        <p class="plan-card--price"><span>$</span>199</p>
+                        <p class="plan-card--saving">*Acceso ilimitado, funciones especiales, recomendaciones personales y sorpresas cada mes.</p>
+                        <button class="plan-card--ca--vip">Escoger este<span></span> </button>
+                    </div>
+                </article>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.plans--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.plans--title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.plans--title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.plans-container-slider {
+   display: flex; 
+   height: 316px;
+   overflow-x: scroll;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x proximity;
+}
+.plans-container-card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 290px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 5px 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+}
+.recomended,
+.basic,
+.vip {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px ;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);   
+}
+.basic {
+    background-color: var(--secondary-blue);
+}
+.vip {
+    background-color: #ba7ae6;
+}
+.plan-card--title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.plan-card--price {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5rem;
+    color: black;
+}
+.plan-card--price span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: text-top;
+}
+.plan-card--saving {
+    font-size: 1.2rem;
+    color: #757575;
+}
+.plan-card--ca,
+.plan-card--ca--basic,
+.plan-card--ca--vip {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #FAF8F7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.plan-card--ca--basic {
+    border: 2px solid var(--secondary-blue);
+}
+.plan-card--ca--vip {
+    border: 2px solid #ba7ae6;
+}
+.plan-card--ca span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icons/orange-right-arrow.svg);
+    vertical-align: text-bottom;
+}
+
+ OJO CON ESTO VAS A PODER DAR SCROOLL
+  overflow-x: scroll;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x proximity;
+
+scroll-snap-align: center;
+

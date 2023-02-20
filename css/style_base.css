@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Noto+Sans&family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    text-decoration: none;
+    color: black;
+    scroll-behavior:auto;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+background-color: #f0edf0;
+background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #f0edf0 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
+}
+.cta {
+    display: inline-block ;
+    background-color: #ec151d;
+    justify-self: center;
+    color: #fff;
+    padding: 13px 30px;
+    border-radius: 32px;
+    text-decoration: none;
+    margin-left: 4%;
+}
+
+.estructura{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.cta_green {
+    margin-top: 5%;
+    display: inline-block ;
+    background-color: #81bb20 ;
+    justify-self: center;
+    color: black;
+    padding: 13px 30px;
+    border-radius: 32px;
+    text-decoration: none;
+    margin-left: 4%;
+}
+/* para asambleas*/
+.cta_blue {
+    margin-top: 5%;
+    display: inline-block ;
+    background-color: #4c6ca4;
+    justify-self: center;
+    color: #fff;
+    padding: 13px 30px;
+    border-radius: 32px;
+    text-decoration: none;
+}
